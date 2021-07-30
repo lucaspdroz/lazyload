@@ -45,11 +45,11 @@ header img {
 }
 
 .wrapper {
-    width: 800px;
+    width: 98vw;
 }
 
 #doguinhos {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
