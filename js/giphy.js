@@ -13,7 +13,7 @@ function mostraDoguinhos(data) {
     const dog =
         `
         <div class="dogCard">
-            <img src="${message}" alt="${message}"/>
+            <img loading="lazy" src="${message}" alt="${message}"/>
             <div class="socialInteraction">
                 <span><img src="assets/like.svg"/></span>
                 <span><img src="assets/chat.svg"/></span>
@@ -21,7 +21,7 @@ function mostraDoguinhos(data) {
             </div>
 
             <div class="socialComents">
-                <p>comentários</p>
+                <textarea name="w3review" rows="3" cols="50" resize: vertical; placeholder="Comentar"></textarea>
             </div>
          </div
         `
