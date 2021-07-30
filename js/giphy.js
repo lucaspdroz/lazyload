@@ -1,4 +1,5 @@
-const myGitUser = 'miguelzk'
+const myGitUser = 'lucaspdroz'
+
 
 const urlCat = `https://dog.ceo/api/breeds/image/random`
 const urlGithub = `https://api.github.com/users/${myGitUser}`
@@ -28,11 +29,13 @@ function mostraDoguinhos(data) {
 }
 
 function mostraGithub(data) {
-    const { avatar_url } = data
+    console.log(data);
+    const { avatar_url, login } = data
 
     const git =
         `
-        <img class="gitImage" src=${avatar_url} alt="foto do usuário"/>
+            <p>${login}</p>
+            <img class="gitImage" src=${avatar_url} alt="foto do usuário"/>
         `
     gitContainer.innerHTML = git
 }
