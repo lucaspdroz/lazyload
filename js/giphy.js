@@ -14,9 +14,9 @@ function mostraDoguinhos(data) {
         <div class="dogCard">
             <img src="${message}" alt="${message}"/>
             <div class="socialInteraction">
-                <span><img src="../assets/like.svg"/></span>
-                <span><img src="../assets/chat.svg"/></span>
-                <span><img src="../assets/share.svg"/></span>
+                <span><img src="assets/like.svg"/></span>
+                <span><img src="assets/chat.svg"/></span>
+                <span><img src="assets/share.svg"/></span>
             </div>
 
             <div class="socialComents">
