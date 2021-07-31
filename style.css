@@ -35,17 +35,7 @@ header {
     margin-right: 10px;
     align-items: center;
     font-weight: normal;
-}
-
-.gitImage {
-    height: 100%;
-    border-radius: 100%;
-    margin: 5px;
-    /* Here goes the show */
-    /* background around the image */
-    background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    /* thicness of the border */
-    padding: 5px;
+    cursor: pointer;
 }
 
 .wrapper {
@@ -103,4 +93,14 @@ textarea {
     border: 1px solid rgba(0, 0, 0, 0.2);
     background-color: #fff;
     overflow-x: hidden;
+}
+
+.gitImage {
+    height: 100%;
+    border-radius: 100%;
+    padding: 6px;
+    margin: 5px;
+    background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    outline: 2px solid #fff;
+    outline-offset: -6px;
 }
