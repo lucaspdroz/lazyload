@@ -21,9 +21,9 @@ function mostraDoguinhos(data) {
             </div>
 
             <div class="socialComents">
-                <textarea name="w3review" rows="3" cols="50" resize: vertical; placeholder="Comentar"></textarea>
+                <textarea name="w3review" rows="3" cols="50" resize: vertical;placeholder="Comentar"></textarea>
             </div>
-         </div
+         </div>
         `
     catContainer.innerHTML += dog
 }
